@@ -27,7 +27,7 @@ npm i @specialdoom/docure-banner
 - _background_ background for banner text
 
 ### slots
-- _slot="title"_ for banner titles
+- _slot="title"_ for banner title
 - _slot="description"_ for banner description
 - _slot="actions"_ for banner actions
 
