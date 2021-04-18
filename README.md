@@ -7,32 +7,25 @@ npm i @specialdoom/docure-banner
 ### usage
 
 ```html
-<docure-banner imagesrc="https://www.cflowapps.com/wp-content/uploads/2018/06/workflow-optimization.png"
-    background="#e5e9ff">
-    <p slot="title">Nec dui nunc</p>
-    <div slot="description">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Faucibus ornare
-      suspendisse sed nisi lacus. Justo eget magna fermentum iaculis eu.
-    </div>
-    <span slot="actions">
-      <a href='something'>Something</a>
-      <a href='something-else'>Something else </a>
-    </span>
+<docure-banner
+  imagesrc="https://www.proofhub.com/wp-content/uploads/2021/01/Creative-project-managers.jpg"
+>
+  <docure-banner-title text="Title"></docure-banner-title>
+  <docure-banner-content>Content</docure-banner-content>
+  <docure-banner-actions><button>Test</button></docure-banner-actions>
 </docure-banner>
 ```
 
 ### attributes
+
 - _imagesrc_ source for banner image
-- _background_ background for banner text
 
-### slots
-- _slot="title"_ for banner title
-- _slot="description"_ for banner description
-- _slot="actions"_ for banner actions
+### web components
 
-The slot attribute can be added on any element.
+- _docure-banner-title_ for banner title
+- _docure-banner-content_ for banner description
+- _docure-banner-actions_ for banner actions
 
-### example 
+### example
 
 ![Presentation](presentation.png)
